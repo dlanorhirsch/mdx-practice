@@ -1,5 +1,42 @@
-body {
-  margin-left: 300px;
-  margin-top: 100px;
-  width: 800px;
+  body {
+    width: 700px;
+    margin-left: 100px;
+  }
+  p {
+    line-height: 140%;
+    margin-bottom: 1.4em;
+    margin-left: 1em;
+    color: black;
+  }
+.examples {
+  color: #1c5d99;
+  margin: 1em;
+  padding-bottom: .8em;
+  height: 3em;
+  border-radius: 8px;
+  font-size: 1em;
+}
+.codeExs {
+  font-family: 'Roboto Mono', monospace;
+  font-size: .9em;
+  background: #404045;
+  color: white;
+  padding-left: 20px;
+  border-radius: 10px;
+  width: 40em;
+  margin-left: 1em;
+}
+button {
+  width: 22em;
+  font-size: 1em;
+  color: white;
+  border-radius: 3px;
+  background: #1c5d99;
+  margin-left: 1em;
+  }
+button:hover {
+  background: #639fab;
+}
+button:active {
+  background: #2c7e8f;
 }

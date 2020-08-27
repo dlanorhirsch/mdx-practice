@@ -22,7 +22,8 @@ class ClassComponent extends Component {
         </button>
       <div style={{display: this.state.show ? "block" : "none"}}>
       
-<pre className = "codeExs">{`import React from 'react';
+<pre className = "codeExs">{`
+import React from 'react';
 import { Component } from 'react';
 
 class ClassComponent extends Component {

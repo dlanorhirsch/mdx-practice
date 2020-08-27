@@ -12,7 +12,7 @@ function FunctionalComponent() {
        }
     })
   }  
-     return (
+    return (
       <div>
         <button 
           style={{marginBottom: "15px"}}
@@ -20,10 +20,10 @@ function FunctionalComponent() {
           {show ? "Hide Code" : "FunctionalComponent.js Ex."}
         </button>
       <div style={{display: show ? "block" : "none"}}>
- <pre className = "function">{`
-import React from 'react';
-import { useState } from "react";
+ <pre className = "codeExs">{`
+ import React from 'react';
 
+import { useState } from "react";
 
 function FunctionalComponent() {
   const [show, setShow] = useState(false)
@@ -47,6 +47,7 @@ function FunctionalComponent() {
     </div>
     )
   }
+
 `}
 </pre>
     </div>  
